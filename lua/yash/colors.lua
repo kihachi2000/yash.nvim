@@ -29,8 +29,8 @@ colors.link = "#ff0000" -- FIXME
 
 colors.error_bg = "#751a37" -- FIXME
 colors.warn_bg  = "#505424" -- FIXME
-colors.info_bg  = "#0a2d3a" -- FIXME
-colors.hint_bg  = "0a2d1a" -- FIXME
+colors.info_bg  = "#176784" -- FIXME
+colors.hint_bg  = "#186b3d" -- FIXME
 
 colors.none = "NONE"
 

@@ -12,10 +12,10 @@ M.DiagnosticWarn  = { bg = colors.warn_bg }
 M.DiagnosticInfo  = { bg = colors.info_bg }
 M.DiagnosticHint  = { bg = colors.hint_bg }
 
-M.DiagnosticUnderlineError = { fg = colors.fg, bg = colors.error_bg }
-M.DiagnosticUnderlineWarn  = { fg = colors.fg, bg = colors.warn_bg }
-M.DiagnosticUnderlineInfo  = { fg = colors.fg, bg = colors.info_bg }
-M.DiagnosticUnderlineHint  = { fg = colors.fg, bg = colors.hint_bg }
+--M.DiagnosticUnderlineError = { fg = colors.fg, bg = colors.error_bg }
+--M.DiagnosticUnderlineWarn  = { fg = colors.fg, bg = colors.warn_bg }
+--M.DiagnosticUnderlineInfo  = { fg = colors.fg, bg = colors.info_bg }
+--M.DiagnosticUnderlineHint  = { fg = colors.fg, bg = colors.hint_bg }
 
 M.DiagnosticLineNrError = { fg = colors.light_gray, bg = colors.error_bg }
 M.DiagnosticLineNrWarn  = { fg = colors.light_gray, bg = colors.warn_bg }
