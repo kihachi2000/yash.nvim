@@ -17,7 +17,7 @@ vim.cmd("colorscheme yash")
 ```
 
 ## Support
-- [LSP Diagnostics](nvim built in lsp)
+- [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
 - [defx.nvim](https://github.com/Shougo/defx.nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
