@@ -58,6 +58,7 @@ M["@string.regex"] = { fg = colors.blue }
 M["@string.special"] = {} -- TODO
 M["@type"] = { fg = colors.light_gray }
 M["@type.builtin"] = { fg = colors.light_gray }
+M["@type.qualifier"] = { fg = colors.dark_gray }
 
 -- Variable
 M["@field"] = { fg = colors.fg }
