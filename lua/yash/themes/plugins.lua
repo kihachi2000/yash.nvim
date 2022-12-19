@@ -15,7 +15,7 @@ M.CmpItemKindKeyword = { fg = colors.fg, bg = colors.none }
 M.CmpItemKindProperty = { fg = colors.fg, bg = colors.none }
 M.CmpItemKindUnit = { fg = colors.fg, bg = colors.none }
 
--- Defx.vim
+-- defx.nvim
 M.Defx_icon_directory_icon = { fg = colors.dark_gray }
 M.Defx_icon_opened_icon = { fg = colors.dark_gray }
 M.Defx_filename_directory = { fg = colors.light_gray }
