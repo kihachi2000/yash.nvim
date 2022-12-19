@@ -3,12 +3,13 @@ local colors = {}
 colors.bg = "#0a0d1a"
 colors.fg = "#f8f8f8"
 
-colors.white = "#f8f8f8"
+colors.white = "#ffffff"
 colors.light_gray = "#d0d0d0"
 colors.dark_gray = "#a0a0a0"
 
 colors.red = "#dd4827"
-colors.green = "#99e8d4"
+--colors.green = "#99e8d4"
+colors.green = "#99e8a4"
 colors.blue = "#9abdea"
 colors.yellow = "00ffff"
 colors.light_orange = "#f9dd9f"

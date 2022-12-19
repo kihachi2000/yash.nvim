@@ -23,7 +23,7 @@ M.TSField = { fg = colors.fg }
 M.TSFloat = { fg = colors.blue }
 M.TSFuncBuiltin = { fg = colors.fg }
 M.TSFuncMacro = { fg = colors.fg }
-M.TSFunction = { fg = colors.fg }
+M.TSFunction = { fg = colors.green }
 M.TSFunctionCall = { fg = colors.fg }
 M.TSInclude = { fg = colors.dark_gray }
 M.TSKeyword = { fg = colors.dark_gray }
@@ -33,7 +33,8 @@ M.TSKeywordReturn = { fg = colors.dark_orange }
 M.TSLabel = { fg = colors.dark_orange }
 M.TSLiteral = { fg = colors.fg }
 M.TSMath = {} -- TODO
-M.TSMethod = { fg = colors.fg }
+--M.TSMethod = { fg = colors.fg }
+M.TSMethod = { fg = colors.green }
 M.TSNamespace = { fg = colors.light_gray }
 M.TSNone = {} -- TODO
 M.TSNote = {} -- TODO
@@ -59,7 +60,7 @@ M.TSTagDelimiter = { fg = colors.light_gray }
 M.TSText = { fg = colors.light_gray }
 M.TSTextReference = { fg = colors.light_gray } -- FIXME ???
 M.TSTitle = { fg = colors.fg, style = "bold" }
-M.TSType = { fg = colors.green }
+M.TSType = { fg = colors.light_gray }
 M.TSTypeBuiltin = { fg = colors.light_gray }
 M.TSURI = { fg = colors.link }
 M.TSUnderline = { fg = colors.fg, style = "underline" }
