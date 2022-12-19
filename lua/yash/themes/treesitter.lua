@@ -19,6 +19,7 @@ M["@method"] = { fg = colors.green }
 M["@method.call"] = { fg = colors.fg }
 
 -- Keyword
+M["@attribute"] = { fg = colors.dark_gray }
 M["@conditional"] = { fg = colors.dark_orange }
 M["@constant"] = { fg = colors.fg }
 M["@constant.builtin"] = { fg = colors.blue }
@@ -45,7 +46,6 @@ M["@punctuation.special"] = { fg = colors.dark_gray }
 M["@symbol"] = { fg = colors.light_orange }
 
 -- Value
-M["@attribute"] = { fg = colors.blue }
 M["@boolean"] = { fg = colors.blue }
 M["@character"] = { fg = colors.blue }
 M["@character.special"] = { fg = colors.blue }
@@ -67,8 +67,6 @@ M["@variable"] = { fg = colors.fg }
 M["@variable.builtin"] = { fg = colors.fg }
 
 -- Other
-M["@emphasis"] = { fg = colors.light_orange } -- TODO
-M["@strike"] = { fg = colors.comment, strikethrough = true }
 M["@text"] = { fg = colors.light_gray }
 M["@text.literal"] = { fg = colors.fg }
 M["@text.title"] = { fg = colors.fg, strikethrough = true }
@@ -78,11 +76,13 @@ M["@text.uri"] = { fg = colors.link }
 -- Todo
 M["@danger"] = {} -- TODO
 M["@debug"] = {} -- TODO
+M["@emphasis"] = { fg = colors.light_orange } -- TODO
 M["@environment"] = {} -- TODO
 M["@environment.name"] = {} -- TODO
 M["@math"] = {} -- TODO
 M["@none"] = {} -- TODO
 M["@note"] = {} -- TODO
+M["@strike"] = { fg = colors.comment, strikethrough = true } -- TODO
 M["@strong"] = {} -- TODO
 M["@text.reference"] = { fg = colors.light_gray } -- FIXME ???
 M["@text.todo"] = { fg = colors.yellow } -- FIXME
