@@ -1,9 +1,13 @@
 # yash.nvim
-A white based colorscheme.
+A functional color scheme for Neovim.
 
 ![Sample image](image/sample.png)
 
 ## Support
-- treesitter
 - nvim built in lsp
-- defx.vim
+- [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [defx.vim](https://github.com/Shougo/defx.nvim)
+
+## Todo
+- set unspecified color.
+- lualine/lightline support.
