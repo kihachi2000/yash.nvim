@@ -3,7 +3,7 @@ local colors = require("yash.colors")
 local M = {}
 
 -- nvim-cmp
-M.CmpItemAbbrDeprecated = { fg = colors.dark_gray, bg = colors.none, gui = "strikethrough" }
+M.CmpItemAbbrDeprecated = { fg = colors.dark_gray, bg = colors.none, strikethrough = true }
 M.CmpItemAbbrMatch = { fg = colors.blue, bg = colors.none }
 M.CmpItemAbbrMatchFuzzy = { fg = colors.blue, bg = colors.none }
 M.CmpItemKindVariable = { fg = colors.dark_orange, bg = colors.none }

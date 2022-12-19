@@ -4,25 +4,25 @@ local M = {}
 
 M.ColorColumn = { fg = colors.none, bg = colors.none }
 M.Conceal = { fg = colors.comment }
-M.Cursor = { fg = colors.cursor, bg = colors.bg, style = "reverse" }
-M.CursorIM = { fg = colors.none, bg = colors.cursor, style = "reverse" }
+M.Cursor = { fg = colors.cursor, bg = colors.bg, reverse = true }
+M.CursorIM = { fg = colors.none, bg = colors.cursor, reverse = true }
 M.lCursor = {} -- TODO
 M.CursorLine = { fg = colors.none, bg = colors.none }
 M.CursorColumn = { fg = colors.none, bg = colors.none }
 M.CursorLineNr = { fg = colors.light_gray }
-M.DiffAdd = { fg = colors.green, bg = colors.none, style = "reverse" }
-M.DiffChange = { fg = colors.orange, bg = colors.none, style = "reverse" }
-M.DiffDelete = { fg = colors.red, bg = colors.none, style = "reverse" }
-M.DiffText = { fg = colors.yellow, bg = colors.none, style = "reverse" }
+M.DiffAdd = { fg = colors.green, bg = colors.none, reverse = true }
+M.DiffChange = { fg = colors.orange, bg = colors.none, reverse = true }
+M.DiffDelete = { fg = colors.red, bg = colors.none, reverse = true }
+M.DiffText = { fg = colors.yellow, bg = colors.none, reverse = true }
 M.Directory = { fg = colors.blue, bg = colors.none }
 M.EndOfBuffer = { fg = colors.bg, bg = colors.none }
 M.ErrorMsg = { fg = colors.none }
 M.FoldColumn = { fg = colors.blue }
-M.Folded = { fg = colors.green, bg = colors.bg, style = "italic" }
+M.Folded = { fg = colors.green, bg = colors.bg, italic = true }
 M.Ignore = { fg = colors.bg }
 M.IncSearch = { bg = colors.highlight }
 M.LineNr = { fg = colors.line_numbers, bg = colors.bg }
-M.MatchParen = { bg = colors.highlight, style = "bold" }
+M.MatchParen = { bg = colors.highlight, bold = true }
 M.ModeMsg = { fg = colors.light_gray }
 M.MoreMsg = { fg = colors.light_gray }
 M.MsgArea = {} -- TODO
@@ -40,10 +40,10 @@ M.QuickFixLine = { bg = colors.hint_bg }
 M.Search = { bg = colors.highlight }
 M.SignColumn = { fg = colors.fg, bg = colors.bg }
 M.SpecialKey = { fg = colors.purple }
-M.SpellBad = { fg = colors.red, bg = colors.none, style = "undercurl" }
-M.SpellCap = { fg = colors.blue, bg = colors.none, style = "undercurl" }
-M.SpellLocal = { fg = colors.green, bg = colors.none, style = "undercurl" }
-M.SpellRare = { fg = colors.purple, bg = colors.none, style = "undercurl" }
+M.SpellBad = { fg = colors.red, bg = colors.none, undercurl = true }
+M.SpellCap = { fg = colors.blue, bg = colors.none, undercurl = true }
+M.SpellLocal = { fg = colors.green, bg = colors.none, undercurl = true }
+M.SpellRare = { fg = colors.purple, bg = colors.none, undercurl = true }
 M.StatusLine = { fg = colors.fg, bg = colors.bg }
 M.StatusLineNC = { fg = colors.light_gray, bg = colors.bg }
 M.Substitute = {} -- TODO
@@ -52,13 +52,13 @@ M.Tabline = { fg = colors.fg }
 M.TablineSel = { fg = colors.bg, bg = colors.green }
 M.TermCursor = {} -- TODO
 M.TermCursorNC = {} -- TODO
-M.Title = { fg = colors.green, bg = colors.none, style = "bold" }
+M.Title = { fg = colors.green, bg = colors.none, bold = true }
 M.VertSplit = { fg = colors.bg }
 M.Visual = { fg = colors.none, bg = colors.selection }
 M.VisualNOS = { fg = colors.none, bg = colors.selection }
 M.WarningMsg = { fg = colors.yellow }
 M.Whitespace = {} -- TODO
-M.WildMenu = { fg = colors.orange, bg = colors.none, style = "bold" }
+M.WildMenu = { fg = colors.orange, bg = colors.none, bold = true }
 
 -- GUI only
 --M.Menu = {}

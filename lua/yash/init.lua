@@ -13,9 +13,7 @@ function M.setup()
     vim.g.colors_name = "yash"
 
     for _, theme in pairs(themes) do
-        for group, colors in pairs(theme) do
-            util.highlight(group, colors)
-        end
+        util.set_highlights(theme)
     end
 end
 

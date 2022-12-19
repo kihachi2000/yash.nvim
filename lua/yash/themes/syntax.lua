@@ -33,9 +33,9 @@ M.StorageClass = { fg = colors.light_gray }
 M.String = { fg = colors.blue }
 M.Structure = { fg = colors.light_gray }
 M.Tag = { fg = colors.light_gray }
-M.Todo = { fg = colors.yellow, bg = colors.none, style = "bold" }
+M.Todo = { fg = colors.yellow, bg = colors.none, bold = true }
 M.Type = { fg = colors.light_gray }
 M.Typedef = { fg = colors.light_gray }
-M.Underlined = { fg = colors.green, bg = colors.none, style = "underline" }
+M.Underlined = { fg = colors.green, bg = colors.none, underline = true }
 
 return M
