@@ -9,10 +9,18 @@ A functional color scheme for Neovim.
 
 ## Usage
 ```vim
+if (has("nvim") && has("termguicolors"))
+    set termguicolors
+endif
+
 colorscheme yash
 ```
 or
 ```lua
+if (vim.call("has", "termguicolors")) then
+    vim.opt.termguicolors = true
+end
+
 vim.cmd("colorscheme yash")
 ```
 
