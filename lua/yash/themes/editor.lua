@@ -10,9 +10,9 @@ M.lCursor = {} -- TODO
 M.CursorLine = { fg = colors.none, bg = colors.none }
 M.CursorColumn = { fg = colors.none, bg = colors.none }
 M.CursorLineNr = { fg = colors.light_gray }
-M.DiffAdd = { fg = colors.green, bg = colors.none, reverse = true }
-M.DiffChange = { fg = colors.orange, bg = colors.none, reverse = true }
-M.DiffDelete = { fg = colors.red, bg = colors.none, reverse = true }
+M.DiffAdd = { fg = colors.green, bg = colors.none }
+M.DiffChange = { fg = colors.green, bg = colors.none }
+M.DiffDelete = { fg = colors.green, bg = colors.none }
 M.DiffText = { fg = colors.yellow, bg = colors.none, reverse = true }
 M.Directory = { fg = colors.blue, bg = colors.none }
 M.EndOfBuffer = { fg = colors.bg, bg = colors.none }
