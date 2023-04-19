@@ -9,7 +9,7 @@ A functional color scheme for Neovim.
 
 ## Usage
 ```vim
-if (has("nvim") && has("termguicolors"))
+if (has("termguicolors"))
     set termguicolors
 endif
 
@@ -29,6 +29,7 @@ vim.cmd("colorscheme yash")
 - [defx.nvim](https://github.com/Shougo/defx.nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 ## Todo
 - set unspecified color.
