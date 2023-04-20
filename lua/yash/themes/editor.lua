@@ -16,7 +16,7 @@ M.DiffDelete = { fg = colors.green, bg = colors.none }
 M.DiffText = { fg = colors.yellow, bg = colors.none, reverse = true }
 M.Directory = { fg = colors.blue, bg = colors.none }
 M.EndOfBuffer = { fg = colors.bg, bg = colors.none }
-M.ErrorMsg = { fg = colors.none }
+M.ErrorMsg = { fg = colors.error_fg, bg = colors.error_bg }
 M.FoldColumn = { fg = colors.blue }
 M.Folded = { fg = colors.green, bg = colors.bg, italic = true }
 M.Ignore = { fg = colors.bg }
@@ -56,7 +56,7 @@ M.Title = { fg = colors.green, bg = colors.none, bold = true }
 M.VertSplit = { fg = colors.bg }
 M.Visual = { fg = colors.none, bg = colors.selection }
 M.VisualNOS = { fg = colors.none, bg = colors.selection }
-M.WarningMsg = { fg = colors.yellow }
+M.WarningMsg = { fg = colors.warn_fg, bg = colors.warn_bg }
 M.Whitespace = {} -- TODO
 M.WildMenu = { fg = colors.orange, bg = colors.none, bold = true }
 
