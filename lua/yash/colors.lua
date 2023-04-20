@@ -28,9 +28,16 @@ colors.float_cursor = "#3b4d9a"
 
 colors.link = "#ff0000" -- FIXME
 
-colors.error_bg = "#751a37" -- FIXME
-colors.warn_bg  = "#505424" -- FIXME
+colors.error_fg = "#ff5d30"
+colors.error_bg = "#42191d"
+
+colors.warn_fg  = "#fbd01d"
+colors.warn_bg  = "#363115"
+
+colors.info_fg  = "#176784" -- FIXME
 colors.info_bg  = "#176784" -- FIXME
+
+colors.hint_fg  = "#186b3d" -- FIXME
 colors.hint_bg  = "#186b3d" -- FIXME
 
 colors.none = "NONE"
