@@ -8,7 +8,6 @@ colors.light_gray = "#d0d0d0"
 colors.dark_gray = "#a0a0a0"
 
 colors.red = "#dd4827"
---colors.green = "#99e8d4"
 colors.green = "#99e8a4"
 colors.blue = "#9abdea"
 colors.yellow = "#00ffff"
@@ -39,6 +38,9 @@ colors.info_bg  = "#176784" -- FIXME
 
 colors.hint_fg  = "#186b3d" -- FIXME
 colors.hint_bg  = "#186b3d" -- FIXME
+
+colors.light_bg_red = "#f72922"
+colors.light_bg_orange = "#f98022"
 
 colors.none = "NONE"
 
