@@ -27,10 +27,11 @@ vim.cmd("colorscheme yash")
 ## Support
 - [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
 - [defx.nvim](https://github.com/Shougo/defx.nvim)
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 ## Todo
 - set unspecified color.
-- lualine/lightline support.
+- lightline support.
