@@ -1,7 +1,7 @@
 # yash.nvim
 A functional color scheme for Neovim.
 
-![Sample image](image/sample.png)
+![Sample image](image/sample2.png)
 
 ## Requirements
 - Neovim 0.8.0 or later
@@ -16,7 +16,7 @@ endif
 colorscheme yash
 ```
 or
-```lua
+``lua
 if (vim.call("has", "termguicolors")) then
     vim.opt.termguicolors = true
 end
