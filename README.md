@@ -16,7 +16,7 @@ endif
 colorscheme yash
 ```
 or
-``lua
+```lua
 if (vim.call("has", "termguicolors")) then
     vim.opt.termguicolors = true
 end
