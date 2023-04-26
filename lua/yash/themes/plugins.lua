@@ -30,8 +30,4 @@ M.Defx_filename_directory = { fg = colors.light_gray }
 M.Defx_filename_root_marker = { fg = colors.light_gray }
 M.Defx_filename_root = { fg = colors.blue }
 
--- lualine.nvim
-M.LualineError = { fg = colors.light_bg_red, bg = colors.light_gray }
-M.LualineWarning = { fg = colors.light_bg_orange, bg = colors.light_gray }
-
 return M
