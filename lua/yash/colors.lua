@@ -1,5 +1,7 @@
 local colors = {}
 
+colors.none = "NONE"
+
 colors.bg = "#0a0d1a"
 colors.fg = "#f8f8f8"
 
@@ -33,12 +35,10 @@ colors.error_bg = "#42191d"
 colors.warn_fg  = "#fbd01d"
 colors.warn_bg  = "#363115"
 
-colors.info_fg  = "#176784" -- FIXME
-colors.info_bg  = "#176784" -- FIXME
+colors.info_fg  = "#1adbdb"
+colors.info_bg  = "#0b344b"
 
-colors.hint_fg  = "#186b3d" -- FIXME
-colors.hint_bg  = "#186b3d" -- FIXME
-
-colors.none = "NONE"
+colors.hint_fg  = "#1ddb1a"
+colors.hint_bg  = "#083f1f"
 
 return colors
