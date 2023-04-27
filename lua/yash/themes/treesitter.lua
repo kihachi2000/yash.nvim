@@ -91,4 +91,7 @@ M["@text.todo"] = { fg = colors.yellow } -- FIXME
 -- Java
 M["@keyword.java"] = { fg = colors.dark_orange }
 
+-- Lua
+M["@keyword.function.lua"] = { fg = colors.green }
+
 return M
