@@ -9,6 +9,7 @@ A functional color scheme for Neovim.
 
 ## Usage
 ```vim
+' Vim script
 if (has("termguicolors"))
     set termguicolors
 endif
@@ -17,6 +18,7 @@ colorscheme yash
 ```
 or
 ```lua
+-- lua
 if (vim.call("has", "termguicolors")) then
     vim.opt.termguicolors = true
 end
@@ -25,6 +27,7 @@ vim.cmd("colorscheme yash")
 ```
 
 ## Support
+- [Neovim LSP](https://github.com/neovim/nvim-lspconfig)
 - [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
 - [defx.nvim](https://github.com/Shougo/defx.nvim)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
