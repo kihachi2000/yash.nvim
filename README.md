@@ -8,15 +8,19 @@ A functional color scheme for Neovim.
 - truecolor terminal support
 
 ## Usage
+To enable the colorscheme:
+
 ```vim
-' Vim script
+" Vim script
 if (has("termguicolors"))
     set termguicolors
 endif
 
 colorscheme yash
 ```
+
 or
+
 ```lua
 -- lua
 if (vim.call("has", "termguicolors")) then
@@ -24,6 +28,18 @@ if (vim.call("has", "termguicolors")) then
 end
 
 vim.cmd("colorscheme yash")
+```
+
+To enable yash theme for lualine.nvim: 
+```lua
+-- lua
+require("lualine").setup {
+    options = {
+        -- ...
+        theme = "yash"
+        -- ...
+    }
+}
 ```
 
 ## Support
