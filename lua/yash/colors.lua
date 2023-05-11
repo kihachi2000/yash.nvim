@@ -32,13 +32,13 @@ colors.link = "#ff0000" -- FIXME
 colors.error_fg = "#ff5d30"
 colors.error_bg = "#42191d"
 
-colors.warn_fg  = "#fbd01d"
-colors.warn_bg  = "#363115"
+colors.warn_fg = "#fbd01d"
+colors.warn_bg = "#363115"
 
-colors.info_fg  = "#1adbdb"
-colors.info_bg  = "#0b344b"
+colors.info_fg = "#1adbdb"
+colors.info_bg = "#0b344b"
 
-colors.hint_fg  = "#1ddb1a"
-colors.hint_bg  = "#083f1f"
+colors.hint_fg = "#1ddb1a"
+colors.hint_bg = "#083f1f"
 
 return colors
