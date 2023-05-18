@@ -70,8 +70,8 @@ M["@variable.builtin"] = { fg = colors.fg }
 -- Other
 M["@text"] = { fg = colors.light_gray }
 M["@text.literal"] = { fg = colors.fg }
-M["@text.title"] = { fg = colors.fg, strikethrough = true }
-M["@text.underline"] = { fg = colors.fg, strikethrough = true }
+M["@text.title"] = { fg = colors.fg }
+M["@text.underline"] = { fg = colors.fg, underline = true }
 M["@text.uri"] = { fg = colors.link }
 
 -- Todo
