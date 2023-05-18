@@ -3,6 +3,7 @@ local colors = require("yash.colors")
 local M = {}
 
 M.MarkdownBold = { fg = colors.dark_orange, bold = true }
+M.MarkdownBoldItalic = { fg = colors.dark_orange, bold = true, italic = true }
 M.MarkdownItalic = { fg = colors.fg, italic = true }
 M.MarkdownStrike = { fg = colors.comment, strikethrough = true }
 
