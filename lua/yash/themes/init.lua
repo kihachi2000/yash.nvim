@@ -1,9 +1,10 @@
 local M = {}
 
 M.editor = require("yash.themes.editor")
-M.syntax = require("yash.themes.syntax")
 M.lsp = require("yash.themes.lsp")
-M.treesitter = require("yash.themes.treesitter")
+M.markdown = require("yash.themes.markdown")
 M.plugins = require("yash.themes.plugins")
+M.syntax = require("yash.themes.syntax")
+M.treesitter = require("yash.themes.treesitter")
 
 return M
