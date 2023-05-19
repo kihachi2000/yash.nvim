@@ -11,11 +11,11 @@ M["@warning"] = { bg = colors.warn_bg }
 
 -- Function
 M["@constractor"] = { fg = colors.fg }
-M["@function"] = { fg = colors.green }
+M["@function"] = { fg = colors.fg }
 M["@function.builtin"] = { fg = colors.fg }
 M["@function.call"] = { fg = colors.fg }
 M["@function.macro"] = { fg = colors.fg }
-M["@method"] = { fg = colors.green }
+M["@method"] = { fg = colors.fg }
 M["@method.call"] = { fg = colors.fg }
 
 -- Keyword
@@ -28,7 +28,7 @@ M["@define"] = { fg = colors.dark_gray }
 M["@exception"] = { fg = colors.dark_orange }
 M["@include"] = { fg = colors.dark_gray }
 M["@keyword"] = { fg = colors.dark_gray }
-M["@keyword.function"] = { fg = colors.dark_gray }
+M["@keyword.function"] = { fg = colors.green }
 M["@keyword.operator"] = { fg = colors.dark_gray }
 M["@keyword.return"] = { fg = colors.purple }
 M["@label"] = { fg = colors.dark_orange }
@@ -90,8 +90,5 @@ M["@text.todo"] = { fg = colors.yellow } -- FIXME
 
 -- Java
 M["@keyword.java"] = { fg = colors.dark_orange }
-
--- Lua
-M["@keyword.function.lua"] = { fg = colors.green }
 
 return M
