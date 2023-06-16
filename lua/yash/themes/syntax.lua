@@ -34,7 +34,7 @@ M.String = { fg = colors.blue }
 M.Structure = { fg = colors.light_gray }
 M.Tag = { fg = colors.light_gray }
 M.Todo = { fg = colors.yellow, bg = colors.none, bold = true }
-M.Type = { fg = colors.light_gray }
+M.Type = { fg = "#ff0000" }
 M.Typedef = { fg = colors.light_gray }
 M.Underlined = { fg = colors.green, bg = colors.none, underline = true }
 

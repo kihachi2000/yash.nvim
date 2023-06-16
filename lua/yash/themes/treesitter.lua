@@ -10,7 +10,7 @@ M["@error"] = { fg = colors.error }
 M["@warning"] = { bg = colors.warn_bg }
 
 -- Function
-M["@constractor"] = { fg = colors.fg }
+M["@constructor"] = { fg = colors.fg }
 M["@function"] = { fg = colors.fg }
 M["@function.builtin"] = { fg = colors.fg }
 M["@function.call"] = { fg = colors.fg }
@@ -56,8 +56,8 @@ M["@string"] = { fg = colors.blue }
 M["@string.escape"] = { fg = colors.blue }
 M["@string.regex"] = { fg = colors.blue }
 M["@string.special"] = {} -- TODO
-M["@type"] = { fg = colors.light_gray }
-M["@type.builtin"] = { fg = colors.light_gray }
+M["@type"] = { fg = colors.dark_blue }
+M["@type.builtin"] = { fg = colors.dark_blue }
 M["@type.qualifier"] = { fg = colors.dark_gray }
 
 -- Variable
@@ -87,6 +87,9 @@ M["@strike"] = { fg = colors.comment, strikethrough = true } -- TODO
 M["@strong"] = {} -- TODO
 M["@text.reference"] = { fg = colors.light_gray } -- FIXME ???
 M["@text.todo"] = { fg = colors.yellow } -- FIXME
+
+--M["@lsp.type.type"]
+--M["@lsp.type.variable"]
 
 -- Java
 M["@keyword.java"] = { fg = colors.dark_orange }

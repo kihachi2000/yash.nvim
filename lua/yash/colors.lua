@@ -3,7 +3,7 @@ local colors = {}
 colors.none = "NONE"
 
 colors.bg = "#0a0d1a"
-colors.fg = "#f8f8f8"
+colors.fg = "#d0d0d0"
 
 colors.white = "#ffffff"
 colors.light_gray = "#d0d0d0"
@@ -12,6 +12,7 @@ colors.dark_gray = "#a0a0a0"
 colors.red = "#dd4827"
 colors.green = "#99e8a4"
 colors.blue = "#9abdea"
+colors.dark_blue = "#2838a9"
 colors.yellow = "#00ffff"
 colors.light_orange = "#f9dd9f"
 colors.dark_orange = "#f4af24"
