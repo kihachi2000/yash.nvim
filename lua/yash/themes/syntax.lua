@@ -10,7 +10,7 @@ M.Constant = { fg = colors.blue }
 M.Debug = { fg = colors.light_gray }
 M.Define = { fg = colors.dark_gray }
 M.Delimiter = { fg = colors.light_gray }
-M.Error = { fg = colors.none, bg = colors.error_bg }
+M.Error = { fg = colors.error_fg, bg = colors.error_bg, bold = true }
 M.Exception = { fg = colors.dark_orange }
 M.Float = { fg = colors.blue }
 M.Function = { fg = colors.white }
@@ -34,8 +34,8 @@ M.String = { fg = colors.blue }
 M.Structure = { fg = colors.light_gray }
 M.Tag = { fg = colors.light_gray }
 M.Todo = { fg = colors.yellow, bg = colors.none, bold = true }
-M.Type = { fg = "#ff0000" }
+M.Type = { fg = colors.dark_green }
 M.Typedef = { fg = colors.light_gray }
-M.Underlined = { fg = colors.green, bg = colors.none, underline = true }
+M.Underlined = { fg = colors.light_green, bg = colors.none, underline = true }
 
 return M

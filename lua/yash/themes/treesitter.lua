@@ -6,8 +6,8 @@ local M = {}
 M["@comment"] = { fg = colors.comment }
 
 -- Diagnostic
-M["@error"] = { fg = colors.error }
-M["@warning"] = { bg = colors.warn_bg }
+M["@error"] = { fg = colors.error_fg, bg = colors.error_bg, bold = true }
+M["@warning"] = { fg = colors.warn_fg, bg = colors.warn_bg, bold = true }
 
 -- Function
 M["@constructor"] = { fg = colors.fg }
@@ -28,7 +28,7 @@ M["@define"] = { fg = colors.dark_gray }
 M["@exception"] = { fg = colors.dark_orange }
 M["@include"] = { fg = colors.dark_gray }
 M["@keyword"] = { fg = colors.dark_gray }
-M["@keyword.function"] = { fg = colors.green }
+M["@keyword.function"] = { fg = colors.light_green }
 M["@keyword.operator"] = { fg = colors.dark_gray }
 M["@keyword.return"] = { fg = colors.purple }
 M["@label"] = { fg = colors.dark_orange }
@@ -56,16 +56,16 @@ M["@string"] = { fg = colors.blue }
 M["@string.escape"] = { fg = colors.blue }
 M["@string.regex"] = { fg = colors.blue }
 M["@string.special"] = {} -- TODO
-M["@type"] = { fg = colors.dark_blue }
-M["@type.builtin"] = { fg = colors.dark_blue }
+M["@type"] = { fg = colors.dark_green }
+M["@type.builtin"] = { fg = colors.dark_green }
 M["@type.qualifier"] = { fg = colors.dark_gray }
 
 -- Variable
 M["@field"] = { fg = colors.fg }
 M["@parameter"] = { fg = colors.fg }
 M["@parameter.reference"] = { fg = colors.fg }
-M["@variable"] = { fg = colors.fg }
-M["@variable.builtin"] = { fg = colors.fg }
+M["@variable"] = { fg = colors.pink }
+M["@variable.builtin"] = { fg = colors.pink }
 
 -- Other
 M["@text"] = { fg = colors.light_gray }
@@ -87,9 +87,6 @@ M["@strike"] = { fg = colors.comment, strikethrough = true } -- TODO
 M["@strong"] = {} -- TODO
 M["@text.reference"] = { fg = colors.light_gray } -- FIXME ???
 M["@text.todo"] = { fg = colors.yellow } -- FIXME
-
---M["@lsp.type.type"]
---M["@lsp.type.variable"]
 
 -- Java
 M["@keyword.java"] = { fg = colors.dark_orange }
