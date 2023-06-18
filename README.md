@@ -1,7 +1,7 @@
 # yash.nvim
 A functional color scheme for Neovim.
 
-![Sample image](image/sample2.png)
+![Sample image](image/sample.jpg)
 
 ## Requirements
 - Neovim 0.8.0 or later
