@@ -1,5 +1,5 @@
 # yash.nvim
-A functional color scheme for Neovim.
+A dark Neovim theme with support for LSP and treesitter.
 
 ![Sample image](image/sample.jpg)
 
@@ -30,6 +30,7 @@ end
 vim.cmd("colorscheme yash")
 ```
 
+## lualine.nvim
 To enable yash theme for lualine.nvim: 
 ```lua
 -- lua
@@ -44,6 +45,7 @@ require("lualine").setup {
 
 ## Support
 - [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
+- [LSP Semantic Highlight](https://neovim.io/doc/user/lsp.html#lsp-semantic-highlight)
 - [defx.nvim](https://github.com/Shougo/defx.nvim)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
@@ -52,4 +54,3 @@ require("lualine").setup {
 
 ## Todo
 - set unspecified color.
-- lightline support.
