@@ -13,8 +13,8 @@ M.Delimiter = { fg = colors.light_gray }
 M.Error = { fg = colors.error_fg, bg = colors.error_bg, bold = true }
 M.Exception = { fg = colors.dark_orange }
 M.Float = { fg = colors.blue }
-M.Function = { fg = colors.white }
-M.Identifier = { fg = colors.white }
+M.Function = { fg = colors.light_green }
+M.Identifier = { fg = colors.pink }
 M.Ignore = { fg = colors.bg }
 M.Include = { fg = colors.dark_gray }
 M.Keyword = { fg = colors.dark_gray }
