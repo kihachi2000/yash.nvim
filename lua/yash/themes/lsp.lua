@@ -36,6 +36,6 @@ M["@lsp.type.property"] = { fg = colors.fg }
 M["@lsp.type.struct"] = { fg = colors.dark_green }
 M["@lsp.type.type"] = { fg = colors.dark_green }
 M["@lsp.type.typeParameter"] = { fg = colors.light_gray }
-M["@lsp.type.variable"] = { fg = colors.pink }
+M["@lsp.type.variable"] = { fg = colors.fg }
 
 return M

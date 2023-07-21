@@ -11,12 +11,12 @@ M["@warning"] = { fg = colors.warn_fg, bg = colors.warn_bg, bold = true }
 
 -- Function
 M["@constructor"] = { fg = colors.fg }
-M["@function"] = { fg = colors.fg }
-M["@function.builtin"] = { fg = colors.fg }
-M["@function.call"] = { fg = colors.fg }
+M["@function"] = { fg = colors.pink }
+M["@function.builtin"] = { fg = colors.pink }
+M["@function.call"] = { fg = colors.pink }
 M["@function.macro"] = { fg = colors.fg }
-M["@method"] = { fg = colors.fg }
-M["@method.call"] = { fg = colors.fg }
+M["@method"] = { fg = colors.pink }
+M["@method.call"] = { fg = colors.pink }
 
 -- Keyword
 M["@attribute"] = { fg = colors.dark_gray }
@@ -39,7 +39,7 @@ M["@tag.attribute"] = { fg = colors.fg }
 M["@tag.delimiter"] = { fg = colors.fg }
 
 -- Symbol
-M["@operator"] = { fg = colors.light_gray }
+M["@operator"] = { fg = colors.dark_gray }
 M["@punctuation.bracket"] = { fg = colors.dark_gray }
 M["@punctuation.delimiter"] = { fg = colors.dark_gray }
 M["@punctuation.special"] = { fg = colors.dark_gray }
@@ -56,16 +56,16 @@ M["@string"] = { fg = colors.blue }
 M["@string.escape"] = { fg = colors.blue }
 M["@string.regex"] = { fg = colors.blue }
 M["@string.special"] = {} -- TODO
-M["@type"] = { fg = colors.dark_green }
-M["@type.builtin"] = { fg = colors.dark_green }
+M["@type"] = { fg = colors.dark_blue }
+M["@type.builtin"] = { fg = colors.dark_blue }
 M["@type.qualifier"] = { fg = colors.dark_gray }
 
 -- Variable
 M["@field"] = { fg = colors.fg }
-M["@parameter"] = { fg = colors.fg }
+M["@parameter"] = { fg = colors.light_orange }
 M["@parameter.reference"] = { fg = colors.fg }
-M["@variable"] = { fg = colors.pink }
-M["@variable.builtin"] = { fg = colors.pink }
+M["@variable"] = { fg = colors.fg }
+M["@variable.builtin"] = { fg = colors.fg }
 
 -- Other
 M["@text"] = { fg = colors.light_gray }
