@@ -3,15 +3,16 @@ local colors = {}
 colors.none = "NONE"
 
 colors.bg = "#0a0d1a"
-colors.fg = "#d0d0d0"
+colors.fg = "#dbdbdb"
 
 colors.white = "#ffffff"
 colors.light_gray = "#b8b8b8"
 colors.dark_gray = "#a0a0a0"
 
 colors.red = "#dd4827"
-colors.light_green = "#99e8a4"
+colors.light_green = "#97e5b1"
 colors.dark_green = "#3cc18a"
+colors.light_blue = "#a3e0e2"
 colors.blue = "#9abdea"
 --colors.dark_blue = "#7793b5"
 colors.dark_blue = "#75b296"
@@ -19,7 +20,6 @@ colors.yellow = "#00ffff"
 colors.light_orange = "#f9dd9f"
 colors.dark_orange = "#f4af24"
 colors.pink = "#eaa8bc"
---colors.purple = "#d0a7ef"
 colors.purple = "#d9aef9"
 
 colors.comment = "#787878"
