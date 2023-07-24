@@ -31,10 +31,17 @@ vim.cmd("colorscheme yash")
 ```
 
 ## lightline.vim
-To enable yash theme for lualine.nvim: 
+To enable yash theme for lightline.vim: 
 ```vim
 " Vim script
 let g:lightline = { 'colorscheme': 'yash' }
+```
+
+or
+
+```lua
+-- lua
+vim.g.lightline = { colorscheme: "yash" }
 ```
 
 ## lualine.nvim
@@ -43,9 +50,7 @@ To enable yash theme for lualine.nvim:
 -- lua
 require("lualine").setup {
     options = {
-        -- ...
         theme = "yash"
-        -- ...
     }
 }
 ```
