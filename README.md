@@ -30,7 +30,7 @@ end
 vim.cmd("colorscheme yash")
 ```
 
-## lualine.nvim
+## lightline.vim
 To enable yash theme for lualine.nvim: 
 ```vim
 " Vim script
