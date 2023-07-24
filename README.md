@@ -32,6 +32,13 @@ vim.cmd("colorscheme yash")
 
 ## lualine.nvim
 To enable yash theme for lualine.nvim: 
+```vim
+" Vim script
+let g:lightline = { 'colorscheme': 'yash' }
+```
+
+## lualine.nvim
+To enable yash theme for lualine.nvim: 
 ```lua
 -- lua
 require("lualine").setup {
@@ -47,6 +54,7 @@ require("lualine").setup {
 - [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
 - [LSP Semantic Highlight](https://neovim.io/doc/user/lsp.html#lsp-semantic-highlight)
 - [defx.nvim](https://github.com/Shougo/defx.nvim)
+- [lightline.vim](https://github.com/itchyny/lightline.vim)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
