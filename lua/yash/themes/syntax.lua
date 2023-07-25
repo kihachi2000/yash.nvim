@@ -13,7 +13,7 @@ M.Delimiter = { fg = colors.light_gray }
 M.Error = { fg = colors.error_fg, bg = colors.error_bg, bold = true }
 M.Exception = { fg = colors.dark_orange }
 M.Float = { fg = colors.blue }
-M.Function = { fg = colors.pink }
+M.Function = { fg = colors.light_blue, bold = true }
 M.Identifier = { fg = colors.fg }
 M.Ignore = { fg = colors.bg }
 M.Include = { fg = colors.dark_gray }
@@ -28,10 +28,10 @@ M.Repeat = { fg = colors.dark_orange }
 M.Special = { fg = colors.light_gray }
 M.SpecialChar = { fg = colors.light_gray }
 M.SpecialComment = { fg = colors.light_gray }
-M.Statement = { fg = colors.dark_orange }
+M.Statement = { fg = colors.dark_gray }
 M.StorageClass = { fg = colors.light_gray }
 M.String = { fg = colors.blue }
-M.Structure = { fg = colors.light_green }
+M.Structure = { fg = colors.dark_gray }
 M.Tag = { fg = colors.light_gray }
 M.Todo = { fg = colors.yellow, bg = colors.none, bold = true }
 M.Type = { fg = colors.light_green }
