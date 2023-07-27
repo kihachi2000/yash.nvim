@@ -3,6 +3,12 @@ A dark Neovim theme with support for LSP and treesitter.
 
 ![Sample image](image/v0.6.0.jpg)
 
+## Features
+- Made for readability ([philosophy](https://zenn.dev/kihachi2000/articles/4f4314ef791c5d))
+- Support for treesitter
+- Support for Neovim builtin LSP
+- Supports for [a lot of plugins](https://github.com/kihachi2000/yash.nvim)
+
 ## Requirements
 - Neovim 0.8.0 or later
 - truecolor terminal support
@@ -39,6 +45,7 @@ vim.cmd("colorscheme yash")
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [terminal colors](https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal-config)
 
 ### lightline.vim
 To enable yash theme for lightline.vim: 
