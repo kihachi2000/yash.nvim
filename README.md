@@ -4,10 +4,12 @@ A dark Neovim theme with support for LSP and treesitter.
 ![Sample image](image/v0.6.0.jpg)
 
 ## Features
-- Made for readability ([philosophy](https://zenn.dev/kihachi2000/articles/4f4314ef791c5d))
+- Made for readability
 - Support for treesitter
 - Support for Neovim builtin LSP
 - Supports for [a lot of plugins](https://github.com/kihachi2000/yash.nvim#support)
+
+To learn more, see [this page](https://zenn.dev/kihachi2000/articles/4f4314ef791c5d).
 
 ## Requirements
 - Neovim 0.8.0 or later
