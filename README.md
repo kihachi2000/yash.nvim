@@ -1,7 +1,7 @@
 # yash.nvim
 A dark Neovim theme with support for LSP and treesitter.
 
-![Sample image](image/v0.6.0.jpg)
+![Sample image](image/v0.7.0.jpg)
 
 ## Features
 - Made for readability
