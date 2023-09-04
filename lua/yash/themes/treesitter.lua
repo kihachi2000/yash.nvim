@@ -20,20 +20,20 @@ M["@method.call"] = { fg = colors.pink }
 
 -- Keyword
 M["@attribute"] = { fg = colors.dark_gray }
-M["@conditional"] = { fg = colors.dark_orange }
+M["@conditional"] = { fg = colors.dark_orange, bold = true }
 M["@constant"] = { fg = colors.fg }
 M["@constant.builtin"] = { fg = colors.blue }
 M["@constant.macro"] = { fg = colors.blue }
 M["@define"] = { fg = colors.dark_gray }
-M["@exception"] = { fg = colors.dark_orange }
+M["@exception"] = { fg = colors.dark_orange, bold = true }
 M["@include"] = { fg = colors.dark_gray }
 M["@keyword"] = { fg = colors.dark_gray }
 M["@keyword.function"] = { fg = colors.light_blue, bold = true }
 M["@keyword.operator"] = { fg = colors.dark_gray }
-M["@keyword.return"] = { fg = colors.purple }
-M["@label"] = { fg = colors.dark_orange }
+M["@keyword.return"] = { fg = colors.purple, bold = true }
+M["@label"] = { fg = colors.dark_orange, bold = true }
 M["@property"] = { fg = colors.fg }
-M["@repeat"] = { fg = colors.dark_orange }
+M["@repeat"] = { fg = colors.dark_orange, bold = true }
 M["@tag"] = { fg = colors.fg }
 M["@tag.attribute"] = { fg = colors.fg }
 M["@tag.delimiter"] = { fg = colors.fg }
@@ -62,7 +62,7 @@ M["@type.qualifier"] = { fg = colors.dark_gray }
 
 -- Variable
 M["@field"] = { fg = colors.fg }
-M["@parameter"] = { fg = colors.light_orange, bold = true }
+M["@parameter"] = { fg = colors.yellow_green, bold = true }
 M["@parameter.reference"] = { fg = colors.fg }
 M["@variable"] = { fg = colors.fg }
 M["@variable.builtin"] = { fg = colors.fg }
