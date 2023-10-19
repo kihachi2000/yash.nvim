@@ -76,3 +76,6 @@ require("lualine").setup {
 
 ## Todo
 - set unspecified colors.
+
+## Message
+Please give me a star for my motivation!:pray:
