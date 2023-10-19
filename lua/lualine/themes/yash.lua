@@ -6,7 +6,7 @@ normal.b = { fg = colors.bg, bg = colors.light_gray }
 normal.c = { fg = colors.bg, bg = colors.dark_gray }
 
 local insert = {}
-insert.a = { fg = colors.bg, bg = colors.green, gui = "bold" }
+insert.a = { fg = colors.bg, bg = colors.light_green, gui = "bold" }
 insert.b = { fg = colors.bg, bg = colors.light_gray }
 insert.c = { fg = colors.bg, bg = colors.dark_gray }
 
