@@ -30,7 +30,6 @@ colors.highlight = "#4054a5"
 colors.line_numbers = "#707070"
 colors.selection = "#606060"
 
---colors.float = "#181f3e"
 colors.float = "#212c56"
 colors.float_cursor = "#3b4d9a"
 
