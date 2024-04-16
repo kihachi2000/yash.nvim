@@ -4,20 +4,22 @@ local M = {}
 
 -- nvim-cmp
 M.CmpItemAbbrDeprecated = { fg = colors.dark_gray, bg = colors.none, strikethrough = true }
-M.CmpItemAbbrMatch = { fg = colors.blue, bg = colors.none }
-M.CmpItemAbbrMatchFuzzy = { fg = colors.blue, bg = colors.none }
-M.CmpItemKindVariable = { fg = colors.dark_orange, bg = colors.none }
-M.CmpItemKindInterface = { fg = colors.dark_orange, bg = colors.none }
-M.CmpItemKindText = { fg = colors.dark_orange, bg = colors.none }
-M.CmpItemKindFunction = { fg = colors.dark_orange, bg = colors.none }
-M.CmpItemKindMethod = { fg = colors.dark_orange, bg = colors.none }
+M.CmpItemAbbrMatch = { fg = colors.dark_orange, bg = colors.none, bold = true }
+M.CmpItemAbbrMatchFuzzy = { fg = colors.dark_orange, bg = colors.none, bold = true }
+M.CmpItemKindFunction = { fg = colors.pink, bg = colors.none }
+M.CmpItemKindInterface = { fg = colors.blue, bg = colors.none }
 M.CmpItemKindKeyword = { fg = colors.fg, bg = colors.none }
+M.CmpItemKindMethod = { fg = colors.pink, bg = colors.none }
 M.CmpItemKindProperty = { fg = colors.fg, bg = colors.none }
+M.CmpItemKindText = { fg = colors.blue, bg = colors.none }
 M.CmpItemKindUnit = { fg = colors.fg, bg = colors.none }
+M.CmpItemKindVariable = { fg = colors.fg, bg = colors.none }
+M.CmpItemMenuDefault = { bg = colors.float }
 
 -- telescope.nvim
 M.TelescopeBorder = { bg = colors.float }
-M.TelescopeMatching = { fg = colors.dark_orange }
+M.TelescopeMatching = { fg = colors.dark_orange, bold = true }
+M.TelescopePromptCounter = { fg = colors.dark_gray }
 M.TelescopePromptNormal = { bg = colors.float }
 M.TelescopePromptPrefix = { fg = colors.dark_orange }
 M.TelescopeResultsNormal = { bg = colors.float, fg = colors.light_gray }
