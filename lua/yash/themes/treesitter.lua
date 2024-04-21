@@ -15,8 +15,8 @@ M["@function"] = { fg = colors.pink, bold = true }
 M["@function.builtin"] = { fg = colors.pink }
 M["@function.call"] = { fg = colors.pink }
 M["@function.macro"] = { fg = colors.fg }
-M["@method"] = { fg = colors.pink, bold = true }
-M["@method.call"] = { fg = colors.pink }
+M["@function.method"] = { fg = colors.pink, bold = true }
+M["@function.method.call"] = { fg = colors.pink }
 
 -- Keyword
 M["@attribute"] = { fg = colors.dark_gray }
@@ -65,6 +65,7 @@ M["@field"] = { fg = colors.fg }
 M["@parameter"] = { fg = colors.yellow_green, bold = true }
 M["@parameter.reference"] = { fg = colors.fg }
 M["@variable"] = { fg = colors.fg }
+M["@variable.parameter"] = { fg = colors.yellow_green, bold = true }
 M["@variable.builtin"] = { fg = colors.fg }
 
 -- Other
