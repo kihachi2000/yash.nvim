@@ -15,6 +15,14 @@ local lualine_warn_fg = "#f98022"
 M.LualineError = { fg = lualine_error_fg, bg = colors.light_gray }
 M.LualineWarning = { fg = lualine_warn_fg, bg = colors.light_gray }
 
+-- hop.nvim
+M.HopNextKey = { fg = colors.dark_orange, bold = true }
+M.HopNextKey1 = { fg = colors.light_blue, bold = true }
+M.HopNextKey2 = { fg = colors.dark_blue, bold = true }
+M.HopUnmatched = { fg = colors.comment }
+--HopCursor = {}
+--HopPreview = {}
+
 -- nvim-cmp
 M.CmpItemAbbrDeprecated = { fg = colors.dark_gray, bg = colors.none, strikethrough = true }
 M.CmpItemAbbrMatch = { fg = colors.dark_orange, bg = colors.none, bold = true }
