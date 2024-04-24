@@ -33,9 +33,11 @@ M["@keyword.directive"] = { fg = colors.dark_gray }
 M["@keyword.exception"] = { fg = colors.dark_orange, bold = true }
 M["@keyword.function"] = { fg = colors.light_blue, bold = true }
 M["@keyword.import"] = { fg = colors.dark_gray }
+M["@keyword.modifier"] = { fg = colors.dark_gray }
 M["@keyword.operator"] = { fg = colors.dark_gray }
 M["@keyword.return"] = { fg = colors.purple, bold = true }
 M["@label"] = { fg = colors.dark_orange, bold = true }
+M["@module"] = { colors.dark_gray }
 M["@module.builtin"] = { colors.light_green }
 M["@namespace"] = { fg = colors.light_gray }
 M["@number"] = { fg = colors.blue }
@@ -51,7 +53,7 @@ M["@spell"] = { fg = colors.comment }
 M["@string"] = { fg = colors.blue }
 M["@string.escape"] = { fg = colors.blue }
 M["@string.regex"] = { fg = colors.blue }
-M["@string.special"] = {} -- TODO
+M["@string.special.url"] = { fg = colors.fg }
 M["@symbol"] = { fg = colors.light_orange }
 M["@tag"] = { fg = colors.fg }
 M["@tag.attribute"] = { fg = colors.fg }
@@ -79,6 +81,7 @@ M["@math"] = {} -- TODO
 M["@none"] = {} -- TODO
 M["@note"] = {} -- TODO
 M["@strike"] = { fg = colors.comment, strikethrough = true } -- TODO
+M["@string.special"] = {} -- TODO
 M["@strong"] = {} -- TODO
 M["@text.reference"] = { fg = colors.light_gray } -- FIXME ???
 M["@text.todo"] = { fg = colors.yellow } -- FIXME
