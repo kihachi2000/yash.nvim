@@ -12,7 +12,7 @@ M["@conditional"] = { fg = colors.dark_orange, bold = true }
 M["@constant"] = { fg = colors.fg }
 M["@constant.builtin"] = { fg = colors.blue }
 M["@constant.macro"] = { fg = colors.blue }
-M["@constructor"] = { fg = colors.fg }
+M["@constructor"] = { fg = colors.pink }
 M["@define"] = { fg = colors.dark_gray }
 M["@error"] = { fg = colors.error_fg, bg = colors.error_bg, bold = true }
 M["@exception"] = { fg = colors.dark_orange, bold = true }
@@ -37,8 +37,8 @@ M["@keyword.modifier"] = { fg = colors.dark_gray }
 M["@keyword.operator"] = { fg = colors.dark_gray }
 M["@keyword.return"] = { fg = colors.purple, bold = true }
 M["@label"] = { fg = colors.dark_orange, bold = true }
-M["@module"] = { colors.dark_gray }
-M["@module.builtin"] = { colors.light_green }
+M["@module"] = { fg = colors.dark_gray }
+M["@module.builtin"] = { fg = colors.light_green }
 M["@namespace"] = { fg = colors.light_gray }
 M["@number"] = { fg = colors.blue }
 M["@operator"] = { fg = colors.dark_gray }
