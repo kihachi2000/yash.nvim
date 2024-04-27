@@ -9,7 +9,7 @@ M.CursorIM = { fg = colors.none, bg = colors.cursor, reverse = true }
 M.lCursor = {} -- TODO
 M.CursorLine = { fg = colors.none, bg = colors.none }
 M.CursorColumn = { fg = colors.none, bg = colors.none }
-M.CursorLineNr = { fg = colors.light_gray }
+M.CursorLineNr = { fg = colors.light_gray, bg = colors.bg }
 M.DiffAdd = { fg = colors.light_green, bg = colors.none }
 M.DiffChange = { fg = colors.light_green, bg = colors.none }
 M.DiffDelete = { fg = colors.light_green, bg = colors.none }
