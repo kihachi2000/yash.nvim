@@ -26,7 +26,7 @@ M["@function.method"] = { fg = colors.pink, bold = true }
 M["@function.method.call"] = { fg = colors.pink }
 M["@include"] = { fg = colors.dark_gray }
 M["@keyword"] = { fg = colors.dark_gray }
-M["@keyword.conditional"] = { fg = colors.dark_gray, bold = true }
+M["@keyword.conditional"] = { fg = colors.dark_orange, bold = true }
 M["@keyword.conditional.ternary"] = { fg = colors.dark_orange }
 M["@keyword.coroutine"] = { fg = colors.dark_gray }
 M["@keyword.directive"] = { fg = colors.dark_gray }
@@ -36,11 +36,13 @@ M["@keyword.import"] = { fg = colors.dark_gray }
 M["@keyword.modifier"] = { fg = colors.dark_gray }
 M["@keyword.operator"] = { fg = colors.dark_gray }
 M["@keyword.return"] = { fg = colors.purple, bold = true }
+M["@keyword.repeat"] = { fg = colors.dark_orange, bold = true }
 M["@label"] = { fg = colors.dark_orange, bold = true }
 M["@module"] = { fg = colors.dark_gray }
 M["@module.builtin"] = { fg = colors.light_green }
 M["@namespace"] = { fg = colors.light_gray }
 M["@number"] = { fg = colors.blue }
+M["@number.float"] = { fg = colors.blue }
 M["@operator"] = { fg = colors.dark_gray }
 M["@parameter"] = { fg = colors.yellow_green, bold = true }
 M["@parameter.reference"] = { fg = colors.fg }
@@ -85,8 +87,5 @@ M["@string.special"] = {} -- TODO
 M["@strong"] = {} -- TODO
 M["@text.reference"] = { fg = colors.light_gray } -- FIXME ???
 M["@text.todo"] = { fg = colors.yellow } -- FIXME
-
--- Java
-M["@keyword.java"] = { fg = colors.dark_orange }
 
 return M
