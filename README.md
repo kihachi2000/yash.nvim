@@ -79,4 +79,4 @@ require("lualine").setup {
 - set unspecified colors.
 
 ## Message
-Please give me a star for my motivation!🙇‍♂️
+Please give me a star for my motivation!🙌
