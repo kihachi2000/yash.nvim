@@ -10,6 +10,7 @@ M["@comment"] = { fg = colors.comment }
 M["@comment.documentation"] = { fg = colors.comment }
 M["@conditional"] = { fg = colors.dark_orange, bold = true }
 M["@constant"] = { fg = colors.fg }
+M["@constant.html"] = { fg = colors.dark_gray }
 M["@constant.builtin"] = { fg = colors.blue }
 M["@constant.macro"] = { fg = colors.blue }
 M["@constructor"] = { fg = colors.pink }
@@ -38,9 +39,16 @@ M["@keyword.operator"] = { fg = colors.dark_gray }
 M["@keyword.return"] = { fg = colors.purple, bold = true }
 M["@keyword.repeat"] = { fg = colors.dark_orange, bold = true }
 M["@label"] = { fg = colors.dark_orange, bold = true }
+M["@markup.heading"] = { fg = colors.light_green, bold = true }
+M["@markup.italic"] = { fg = colors.fg }        -- TODO
+M["@markup.raw"] = { fg = colors.fg }           -- TODO
+M["@markup.strong"] = { fg = colors.fg }        -- TODO
+M["@markup.strikethrough"] = { fg = colors.fg } -- TODO
+M["@markup.underline"] = { fg = colors.fg }     -- TODO
 M["@module"] = { fg = colors.dark_gray }
 M["@module.builtin"] = { fg = colors.light_green }
 M["@namespace"] = { fg = colors.light_gray }
+M["@none"] = { fg = colors.fg }
 M["@number"] = { fg = colors.blue }
 M["@number.float"] = { fg = colors.blue }
 M["@operator"] = { fg = colors.dark_gray }
@@ -52,14 +60,15 @@ M["@punctuation.delimiter"] = { fg = colors.dark_gray }
 M["@punctuation.special"] = { fg = colors.dark_gray }
 M["@repeat"] = { fg = colors.dark_orange, bold = true }
 M["@spell"] = { fg = colors.comment }
+M["@spell.html"] = { fg = colors.none } -- to distinguish between @none and @spell
 M["@string"] = { fg = colors.blue }
 M["@string.escape"] = { fg = colors.blue }
 M["@string.regex"] = { fg = colors.blue }
-M["@string.special.url"] = { fg = colors.fg }
+M["@string.special.url"] = { fg = colors.blue, underline = true }
 M["@symbol"] = { fg = colors.light_orange }
-M["@tag"] = { fg = colors.fg }
-M["@tag.attribute"] = { fg = colors.fg }
-M["@tag.delimiter"] = { fg = colors.fg }
+M["@tag"] = { fg = colors.light_gray }
+M["@tag.attribute"] = { fg = colors.yellow_green }
+M["@tag.delimiter"] = { fg = colors.dark_gray }
 M["@text"] = { fg = colors.light_gray }
 M["@text.literal"] = { fg = colors.fg }
 M["@text.title"] = { fg = colors.fg }
@@ -74,18 +83,17 @@ M["@variable.member"] = { fg = colors.fg }
 M["@variable.parameter"] = { fg = colors.yellow_green, bold = true }
 M["@warning"] = { fg = colors.warn_fg, bg = colors.warn_bg, bold = true }
 
-M["@danger"] = {} -- TODO
-M["@debug"] = {} -- TODO
-M["@emphasis"] = { fg = colors.light_orange } -- TODO
-M["@environment"] = {} -- TODO
-M["@environment.name"] = {} -- TODO
-M["@math"] = {} -- TODO
-M["@none"] = {} -- TODO
-M["@note"] = {} -- TODO
+M["@danger"] = {}                                            -- TODO
+M["@debug"] = {}                                             -- TODO
+M["@emphasis"] = { fg = colors.light_orange }                -- TODO
+M["@environment"] = {}                                       -- TODO
+M["@environment.name"] = {}                                  -- TODO
+M["@math"] = {}                                              -- TODO
+M["@note"] = {}                                              -- TODO
 M["@strike"] = { fg = colors.comment, strikethrough = true } -- TODO
-M["@string.special"] = {} -- TODO
-M["@strong"] = {} -- TODO
-M["@text.reference"] = { fg = colors.light_gray } -- FIXME ???
-M["@text.todo"] = { fg = colors.yellow } -- FIXME
+M["@string.special"] = {}                                    -- TODO
+M["@strong"] = {}                                            -- TODO
+M["@text.reference"] = { fg = colors.light_gray }            -- FIXME ???
+M["@text.todo"] = { fg = colors.yellow }                     -- FIXME
 
 return M
