@@ -10,8 +10,8 @@ M["@comment"] = { fg = colors.comment }
 M["@comment.documentation"] = { fg = colors.comment }
 M["@conditional"] = { fg = colors.dark_orange, bold = true }
 M["@constant"] = { fg = colors.fg }
-M["@constant.html"] = { fg = colors.dark_gray }
 M["@constant.builtin"] = { fg = colors.blue }
+M["@constant.html"] = { fg = colors.dark_gray }
 M["@constant.macro"] = { fg = colors.blue }
 M["@constructor"] = { fg = colors.pink }
 M["@define"] = { fg = colors.dark_gray }
@@ -36,14 +36,14 @@ M["@keyword.function"] = { fg = colors.light_blue, bold = true }
 M["@keyword.import"] = { fg = colors.dark_gray }
 M["@keyword.modifier"] = { fg = colors.dark_gray }
 M["@keyword.operator"] = { fg = colors.dark_gray }
-M["@keyword.return"] = { fg = colors.purple, bold = true }
 M["@keyword.repeat"] = { fg = colors.dark_orange, bold = true }
+M["@keyword.return"] = { fg = colors.purple, bold = true }
 M["@label"] = { fg = colors.dark_orange, bold = true }
 M["@markup.heading"] = { fg = colors.light_green, bold = true }
 M["@markup.italic"] = { fg = colors.fg }        -- TODO
 M["@markup.raw"] = { fg = colors.fg }           -- TODO
-M["@markup.strong"] = { fg = colors.fg }        -- TODO
 M["@markup.strikethrough"] = { fg = colors.fg } -- TODO
+M["@markup.strong"] = { fg = colors.fg }        -- TODO
 M["@markup.underline"] = { fg = colors.fg }     -- TODO
 M["@module"] = { fg = colors.dark_gray }
 M["@module.builtin"] = { fg = colors.light_green }
@@ -60,7 +60,9 @@ M["@punctuation.delimiter"] = { fg = colors.dark_gray }
 M["@punctuation.special"] = { fg = colors.dark_gray }
 M["@repeat"] = { fg = colors.dark_orange, bold = true }
 M["@spell"] = { fg = colors.comment }
-M["@spell.html"] = { fg = colors.none } -- to distinguish between @none and @spell
+M["@spell.html"] = { fg = colors.none }       -- to distinguish between @none and @spell
+M["@spell.javascript"] = { fg = colors.none } -- to distinguish between @none and @spell
+M["@spell.typescript"] = { fg = colors.none } -- to distinguish between @none and @spell
 M["@string"] = { fg = colors.blue }
 M["@string.escape"] = { fg = colors.blue }
 M["@string.regex"] = { fg = colors.blue }
