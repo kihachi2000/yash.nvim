@@ -9,7 +9,7 @@ A dark Neovim theme with support for LSP and treesitter.
 - Support for Neovim builtin LSP
 - Supports for [a lot of plugins](https://github.com/kihachi2000/yash.nvim#support)
 
-To learn more, see [this page](https://zenn.dev/kihachi2000/articles/4f4314ef791c5d).
+To learn more, see [this page](https://zenn.dev/kihachi2000/articles/6110c6eb3acf0e).
 
 ## Requirements
 - Neovim 0.8.0 or later
