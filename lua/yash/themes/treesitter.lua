@@ -3,6 +3,7 @@ local colors = require("yash.colors")
 local M = {}
 
 M["@attribute"] = { fg = colors.dark_gray }
+M["@attribute.css"] = { fg = colors.yellow_green }
 M["@boolean"] = { fg = colors.blue }
 M["@character"] = { fg = colors.blue }
 M["@character.special"] = { fg = colors.blue }
@@ -10,6 +11,7 @@ M["@comment"] = { fg = colors.comment }
 M["@comment.documentation"] = { fg = colors.comment }
 M["@conditional"] = { fg = colors.dark_orange, bold = true }
 M["@constant"] = { fg = colors.fg }
+M["@constant.css"] = { fg = colors.light_green, bold = true }
 M["@constant.builtin"] = { fg = colors.blue }
 M["@constant.html"] = { fg = colors.dark_gray }
 M["@constant.macro"] = { fg = colors.blue }
@@ -20,6 +22,7 @@ M["@exception"] = { fg = colors.dark_orange, bold = true }
 M["@field"] = { fg = colors.fg }
 M["@float"] = { fg = colors.blue }
 M["@function"] = { fg = colors.pink, bold = true }
+M["@function.css"] = { fg = colors.pink }
 M["@function.builtin"] = { fg = colors.pink }
 M["@function.call"] = { fg = colors.pink }
 M["@function.macro"] = { fg = colors.fg }
@@ -55,6 +58,7 @@ M["@operator"] = { fg = colors.dark_gray }
 M["@parameter"] = { fg = colors.yellow_green, bold = true }
 M["@parameter.reference"] = { fg = colors.fg }
 M["@property"] = { fg = colors.fg }
+M["@property.css"] = { fg = colors.light_gray }
 M["@punctuation.bracket"] = { fg = colors.dark_gray }
 M["@punctuation.delimiter"] = { fg = colors.dark_gray }
 M["@punctuation.special"] = { fg = colors.dark_gray }
@@ -69,6 +73,7 @@ M["@string.regex"] = { fg = colors.blue }
 M["@string.special.url"] = { fg = colors.blue, underline = true }
 M["@symbol"] = { fg = colors.light_orange }
 M["@tag"] = { fg = colors.light_gray }
+M["@tag.css"] = { fg = colors.light_green, bold = true }
 M["@tag.attribute"] = { fg = colors.yellow_green }
 M["@tag.delimiter"] = { fg = colors.dark_gray }
 M["@text"] = { fg = colors.light_gray }
@@ -77,6 +82,7 @@ M["@text.title"] = { fg = colors.fg }
 M["@text.underline"] = { fg = colors.fg, underline = true }
 M["@text.uri"] = { fg = colors.link }
 M["@type"] = { fg = colors.light_green }
+M["@type.css"] = { fg = colors.light_green, bold = true }
 M["@type.builtin"] = { fg = colors.light_green }
 M["@type.qualifier"] = { fg = colors.dark_gray }
 M["@variable"] = { fg = colors.fg }
